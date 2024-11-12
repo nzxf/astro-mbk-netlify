@@ -5,6 +5,8 @@ import { getEntry } from 'astro:content'
 import { formatDate } from "../../utils";
 import Tags from "../../components/Tags.astro";
 
+import { Image } from "astro:assets";
+
 const { slug } = Astro.params;
 
 if(slug === undefined) {
@@ -28,7 +30,12 @@ const { Content } = await entry.render()
         <div class="flex flex-wrap gap-2 mb-6">
         <Tags tags={entry.data.tags}/>
         </div>
-        <img src={'/images/' + entry.data.image} alt="Article Image" class="w-full h-auto rounded-xl mb-6" />
+        <Image 
+        src={entry.data.image}
+        quality="mid"
+        format="avif"
+        alt="Article Image" 
+        class="w-full h-auto rounded-xl mb-6" />
         <Content />
       </article>
 </MainLayout>

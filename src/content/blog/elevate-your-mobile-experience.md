@@ -2,10 +2,12 @@
 title: 'Elevate Your Mobile Experience with Samsung'
 pubDate: 2024-01-22
 author: 'Jane Smith'
-image: 'image4.png'
+image: '../../assets/elevate-your-mobile-experience-with-samsung.png'
 tags: ['samsung', 'smartphones', 'gadgets']
 slug: elevate-your-mobile-experience-with-samsung
 ---
+
+<!-- ![Elevate Your Mobile Experience with Samsung](../../assets/elevate-your-mobile-experience-with-samsung.png) -->
 
 In the ever-evolving world of mobile technology, Samsung has consistently delivered cutting-edge devices that redefine the way we experience the digital world. If you're looking to elevate your mobile experience in 2024, here's why Samsung should be at the top of your list.
 
